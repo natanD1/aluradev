@@ -42,9 +42,8 @@
     </header>
 
     <div class="menu__container">
-      <h3>MENU</h3>
-
       <nav class="menu__link">
+        <h3>MENU</h3>
         <div class="menu__link__links">
           <i class="fa-solid fa-code"></i>
           <a class="t" href="#">Editor de código</a>
@@ -55,10 +54,25 @@
           <a href="#">Comunidade</a>
         </div>
       </nav>
-    </div>
 
-    <div class="menu__container__projeto">
-      <h3>SEU PROJETO</h3>
+      <div class="menu__container__projeto">
+        <div class="menu__secao__projeto">
+          <h3>SEU PROJETO</h3>
+          <input
+            type="text"
+            maxlength="30"
+            class="nome__projeto"
+            placeholder="Nome do seu projeto"
+          />
+          <textarea
+            class="descricao__projeto"
+            id=""
+            cols="5"
+            rows="5"
+            placeholder="Descrição do projeto"
+          ></textarea>
+        </div>
+      </div>
     </div>
   </body>
 </html>
